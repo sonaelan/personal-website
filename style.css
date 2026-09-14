@@ -5,10 +5,28 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url(images/banner.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
+}
+.midnight {
+    background-image: url(images/midnight.jpg);
+}
+
+.dawn {
+    background-image: url(images/dawn.jpg);
+}
+
+.noon {
+    background-image: url(images/noon.jpg);
+}
+
+.dusk {
+    background-image: url(images/dusk.jpg);
+}
+
+.dark {
+    background-image: url(images/dark.jpg);
 }
 nav{
     display: flex;
@@ -42,4 +60,21 @@ nav{
 }
 .nav-links ul li:hover::after{
     width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 25px;
+    color: #fff;
 }
